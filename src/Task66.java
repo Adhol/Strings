@@ -12,6 +12,7 @@ import java.util.Scanner;
 /*For example
   str1 qwe000005464qwe10000
   str2 qwe0000000000033fdffd5000
+  result must be 0000054640000000000033
 */
 public class Task66 {
     public static void main(String[] args) {

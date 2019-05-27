@@ -7,14 +7,14 @@ public class Task93 {
 
     private static void concatString() {
         Scanner in = new Scanner(System.in);
-        String s = "";
+        StringBuilder s = new StringBuilder();
         try {
             System.out.println("Enter number of strings");
             int k = in.nextInt();
             in.nextLine();
             for (int i = 0; i < k; i++) {
                 System.out.println("enter string " + (i + 1));
-                s += in.nextLine();
+                s.append(in.nextLine());
             }
             System.out.println(s);
         } catch (java.util.InputMismatchException e) {

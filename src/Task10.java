@@ -11,8 +11,8 @@ public class Task10 {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a string");
         String s = in.nextLine();
-        if(s.charAt(0) == 'a' & s.charAt(1) == 'b' & s.charAt(2) == 'c') {
-           s = s.replace("abc", "www");
+        if(s.startsWith("abc")) {
+           s = s.replaceFirst("abc", "www");
         } else {
             s += "zzz";
         }
